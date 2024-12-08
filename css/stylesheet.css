@@ -1,0 +1,105 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	margin: 12px 0px 89px 80px;
+	width: 1000px;
+}
+
+#nextBox {
+	width: 174px;
+	display: inline-block;
+	padding: 13px;
+}
+
+#spanBox {
+	display: inline-block;
+	width: 343px;
+	margin: 25px 179px 13px 179px;
+	vertical-align: 15px;
+}
+
+span {
+	font-size: 18px;
+	margin-left: 20px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #323232;
+}
+
+#contactUs {
+	text-decoration: none;
+	border: 1px solid #AC00FF;
+	border-radius: 8px;
+	background-color: #E9D7FE;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 16px;
+	color: #AC00FF;
+	cursor: pointer;
+	vertical-align: 18px;
+}
+
+main {
+	width: 740px;
+	margin-left: 214px;
+}
+
+h1 {
+	font-size: 64px;
+	width: 740px;
+	text-align: left;
+	color: #323232;
+	margin-bottom: 24px;
+}
+
+p {
+	width: 740px;
+	font-size: 24px;
+	line-height: 32px;
+	color: #323232;
+	text-align: left;
+	margin-bottom: 24px;
+}
+
+#joinButton {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #5C3BAE;
+	padding: 16px 24px;
+	border-radius: 8px;
+	border: 1px solid #5C3BAE;
+	display: inline-block;
+	width: 204px;
+	cursor: pointer;
+	vertical-align: 10px;
+	margin-right: 24px;
+}
+
+#playImg {
+	margin-right: 12px;
+	display: inline-block;
+}
+
+#linkVideo {
+	color: #4D3491;
+	vertical-align: 9px;
+	border-bottom: 2px solid #4D3491;
+	font-size: 18px;
+	display: inline-block;
+	margin-left: -24px
+}
+
+img {
+	margin-right: 0;
+	display: block;
+
+}
