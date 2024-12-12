@@ -1,105 +1,206 @@
 * {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-nav {
-	margin: 12px 0px 89px 80px;
-	width: 1000px;
+header {
+	display: block;
+	width: 100%;
 }
 
-#nextBox {
-	width: 174px;
-	display: inline-block;
+nav {
+	max-width: 1140px;
+	width: 100%;
+	height: 72px;
+	padding-top: 12px;
+}
+
+.headerBox {
+	max-width: 1140px;
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+.navImage {
+	max-width: 147px;
+	width: 100%;
 	padding: 13px;
 }
 
-#spanBox {
+.boxImage {
 	display: inline-block;
-	width: 343px;
-	margin: 25px 179px 13px 179px;
-	vertical-align: 15px;
+	max-width: 174px;
+	width: 100%;
+	height: 48px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 80px;
 }
 
-span {
+.linkClass {
+	display: inline-block;
+	max-width: 701px;
+	width: 100%;
+	height: 22px;
+	text-align: center;
+	vertical-align: middle;
+	
+	
+}
+
+.linkA {
+	padding-left: 20px;
 	font-size: 18px;
-	margin-left: 20px;
-
-}
-
-a {
 	text-decoration: none;
 	color: #323232;
 }
 
-#contactUs {
+.buttonClass {
+	max-width: 105px;
+	width: 100%;
+	height: 33px;
 	text-decoration: none;
-	border: 1px solid #AC00FF;
-	border-radius: 8px;
-	background-color: #E9D7FE;
-	font-size: 14px;
+	text-align: center;
+	margin: 7px 0px 7px 0px;
 	display: inline-block;
-	margin-top: 20px;
-	padding: 8px 16px;
+	vertical-align: middle;
+	background: #E9D7FE;
+	border-radius: 8px;
+	border: 1px solid #AC00FF;
+}
+
+.buttonLink {
 	color: #AC00FF;
-	cursor: pointer;
-	vertical-align: 18px;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 8px 16px;
+	
 }
 
 main {
-	width: 740px;
+	margin-top: 64px;
 	margin-left: 214px;
+}
+
+.mainBox {
+	display: block;
+	max-width: 841px;
+	width: 100%;
+	height: 314px;
+}
+
+.boxHeader {
+	max-width: 720px;
+	width: 100%;
+	height: 148px;
+	margin-bottom: 24px;
 }
 
 h1 {
 	font-size: 64px;
-	width: 740px;
-	text-align: left;
 	color: #323232;
+	text-align: left;
+}
+
+.textBox {
+	max-width: 841px;
+	width: 100%;
+	height: 64px;
 	margin-bottom: 24px;
 }
 
-p {
-	width: 740px;
+.textClass {
 	font-size: 24px;
-	line-height: 32px;
 	color: #323232;
 	text-align: left;
-	margin-bottom: 24px;
+	display: inline-block;
+	max-width: 815px;
+	width: 100%;
 }
 
-#joinButton {
-	color: #fff;
-	font-size: 18px;
-	text-decoration: none;
-	background-color: #5C3BAE;
-	padding: 16px 24px;
-	border-radius: 8px;
-	border: 1px solid #5C3BAE;
+.contentBox {
+	max-width: 422px;
+	width: 100%;
+	height: 54px;
+}
+
+.contentButton {
+	max-width: 204px;
+	width: 100%;
+	height: 54px;
 	display: inline-block;
-	width: 204px;
-	cursor: pointer;
-	vertical-align: 10px;
+	vertical-align: middle;
 	margin-right: 24px;
 }
 
-#playImg {
-	margin-right: 12px;
-	display: inline-block;
-}
-
-#linkVideo {
-	color: #4D3491;
-	vertical-align: 9px;
-	border-bottom: 2px solid #4D3491;
+.contentButton button {
+	max-width: 204px;
+	width: 100%;
+	height: 54px;
+	text-decoration: none;
 	font-size: 18px;
-	display: inline-block;
-	margin-left: -24px
+	background: #5C3BAE;
+	border-radius: 8px;
+	border: 1px solid #5C3BAE;
 }
 
-img {
-	margin-right: 0;
-	display: block;
+.contentButton button a {
+	text-decoration: none;
+	color: #fff;
+	padding: 16px 24px;
+}
 
+.watchImage {
+	max-width: 32px;
+	width: 100%;
+	height: 32px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+}
+
+.watchImage img {
+	max-width: 32px;
+	width: 100%;
+	height: 32px;
+	vertical-align: middle;
+}
+
+.watchBox {
+	display: inline-block;
+	max-width: 190px;
+	width: 100%;
+	height: 32px;
+}
+
+.watchBox div {
+	display: inline-block;
+	color: #4D3491;
+	font-size: 18px;
+	vertical-align: middle;
+}
+
+.watchBox div a {
+	text-decoration: none;
+	border-bottom: 2px solid #4D3491;
+}
+
+footer {
+	width: 100%;
+}
+
+
+.cardClass {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+.cardClass img {
+	display: inline-block;
+	width: 1311px;
+	height: 761px;
+	border-radius: 16px;
 }
