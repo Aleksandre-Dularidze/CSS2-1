@@ -46,8 +46,8 @@ nav {
 	height: 22px;
 	text-align: center;
 	vertical-align: middle;
-	
-	
+
+
 }
 
 .linkA {
@@ -76,7 +76,7 @@ nav {
 	text-decoration: none;
 	font-size: 14px;
 	padding: 8px 16px;
-	
+
 }
 
 main {
@@ -168,6 +168,7 @@ h1 {
 	vertical-align: middle;
 }
 
+
 .watchBox {
 	display: inline-block;
 	max-width: 190px;
@@ -182,9 +183,12 @@ h1 {
 	vertical-align: middle;
 }
 
+.videoBox {
+	border-bottom: 2px solid #4D3491;
+}
+
 .watchBox div a {
 	text-decoration: none;
-	border-bottom: 2px solid #4D3491;
 }
 
 footer {
